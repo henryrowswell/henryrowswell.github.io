@@ -21,7 +21,7 @@ theme: minima
 And then execute:
 
     $ bundle
-    
+
 
 ## Usage
 
