@@ -11,11 +11,10 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        <!-- <hr> -->
+        <span><h2 class="h-inline"><a class="post-link h-inline" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2></span>
+        <span class="post-meta h-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta"><p>{{ post.description | escape}}</p></span>
       </li>
     {% endfor %}
   </ul>

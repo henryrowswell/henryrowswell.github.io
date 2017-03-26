@@ -4,6 +4,17 @@
 @import "bootstrap";
 
 
+body {
+  font-family: consolas;
+}
+
+.h-inline {
+  display: inline;
+}
+.h-post-date{
+  float:right;
+}
+
 .h-navbar {
   margin-top:20px;
 }
