@@ -15,6 +15,13 @@ layout: default
         <span><h2 class="h-inline"><a class="post-link h-inline" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2></span>
         <span class="post-meta h-post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <span class="post-meta"><p>{{ post.description | escape}}</p></span>
+
+        <!-- Thing I wrote for making description a list of tags like C++, Java, OpenCV ...etc but it didn't look very good -->
+        <!-- <p>
+        {% for desc in post.description %}
+          <span class="label label-default h-proj-tag post-meta">{{ desc }}</span>
+        {% endfor %}
+        </p> -->
       </li>
     {% endfor %}
   </ul>

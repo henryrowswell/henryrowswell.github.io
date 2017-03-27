@@ -8,6 +8,13 @@ body {
   font-family: consolas;
 }
 
+.h-navbar-icons {
+  @include navbar-vertical-align($line-height-computed);
+  margin-left: $navbar-padding-horizontal;
+  margin-right: $navbar-padding-horizontal;
+  // padding-top: $navbar-padding-vertical;
+}
+
 .h-inline {
   display: inline;
 }
@@ -21,4 +28,20 @@ body {
 
 .container-fluid {
   max-width: 1600px; /* or 950px */
+}
+
+.img-half {
+  width:49%;
+  height:auto
+}
+
+.img-sudoku{
+  width:auto;
+  height:auto;
+  max-width:250px;
+  max-height:250px;
+}
+
+.h-proj-tag {
+  font-weight: normal;
 }
