@@ -15,6 +15,7 @@ Anyway whenever I was curious I would do a quick Google search to see what I cou
 You don't have to decompile anything, these hacks used a tool called Cheat Engine which is able to scan and modify the memory addresses that important game variables are stored at. I found a series of great tutorials that taught me how to create a Bunny Hop Hack, Trigger Bot, and Wall Hack. However, currently none of them are actually usable in online matches because Valve's Anti-Cheat (VAC) system can supposedly detect them really easily and ban your account immediately.
 * [HazardEdit Tutorials](https://www.youtube.com/user/HazardEdit/)
 * [My Code](https://github.com/henryrowswell/csgo_hacking)
+* Launch Options: `-insecure +sv_lan 1`
 
 
 ### Cheat Engine & Offset Dumper
@@ -47,3 +48,7 @@ This one is also surprisingly easy, because the functionality already exists wit
 ### Valve Anti-Cheat (VAC)
 
 This is something I'd definitely like to learn more about, but I've gotten a glimpse into how it works. VAC is an automated system that checks if you do anything you shouldn't normally be able to do. For example, the player's view point angle is usually a value between -180° and 180°, so although 360° may be equivalent, if you set your view angle to a value above 180° you're busted because there's no way you could do that through normal game play. Another example I heard about is if your viewpoint suddenly changes to look directly at a special point like 0,0 (which is in the middle of the sky). It also supposedly monitors certain memory addresses (like traps), and if you modify them you're busted. So when I'm testing these hacks I have to be extra sure that I'm running in offline mode with bots and insecure mode (with the -insecure launch option) which is supposed to disable VAC.
+
+### Next
+* [AimBot](https://www.youtube.com/watch?v=NUeifQK7ukM&list=PL40815C2DCA521507&index=1)
+* [Generalalized Game Hacking](https://www.youtube.com/watch?v=tntGFnPg1u8&list=PL2C03D3BB7FAF2EA0&index=2)
